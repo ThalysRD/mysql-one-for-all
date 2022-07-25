@@ -116,7 +116,6 @@ INSERT INTO SpotifyClone.following (usuario_id, artist_id)
 VALUES (1,1), (1,4), (1,3) , (2,1) , (2,3), (3,2) , (3,1), (4,4) , (5,5) , (5,6) , (6,6) , (6,3) , (6,1) , (7,2) , (7,5) , (8,1) , (8,5) , (9,6) , (9,4 ) , (9,3) , (10,2) , (10,6);
 
 CREATE TABLE SpotifyClone.playback ( 
-
 song_id INT NOT NULL, 
 reproduction_date VARCHAR(50) NOT NULL,
 usuario_id INT NOT NULL,
